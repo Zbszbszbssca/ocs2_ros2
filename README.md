@@ -247,5 +247,12 @@ https://github.com/user-attachments/assets/d29551b7-2ac7-428d-9605-f782193bcaf2
 ## 5. Related Projects
 
 * [quadruped ros2 control](https://github.com/legubiao/quadruped_ros2_control)： Quadruped controller based on OCS2 ROS2
+* [wheel_quadruped_ros2_control-main](https://github.com/Zbszbszbssca/wheel_quadruped_ros2_control-main): Wheeled quadruped controller project based on OCS2 ROS2
 * [arms ro2 control](https://github.com/fiveages-sim/arms_ros2_control): Mobile manipulator controller based on OCS2 ROS2
 * [robot_descriptions](https://github.com/fiveages-sim/robot_descriptions): More robot configs for OCS2 ROS2
+
+## 6. Attribution and Copyright Notice
+
+This repository is a modified fork of [legubiao/ocs2_ros2](https://github.com/legubiao/ocs2_ros2). The original project ports and refactors [OCS2](https://github.com/leggedrobotics/ocs2) for ROS 2.
+
+The changes in this fork are small project-specific modifications. Original copyrights, authorship notices, and third-party dependencies belong to their respective authors. Please refer to the upstream projects and package-level notices for license and copyright information.
