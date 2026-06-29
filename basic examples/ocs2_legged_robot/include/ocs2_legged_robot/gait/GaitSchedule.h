@@ -39,6 +39,7 @@ namespace ocs2::legged_robot {
     public:
         GaitSchedule(ModeSchedule initModeSchedule, ModeSequenceTemplate initModeSequenceTemplate,
                      scalar_t phaseTransitionStanceTime);
+        const ModeSchedule& getModeScheduleConst() const { return modeSchedule_; }             
 
         /**
          * Sets the mode schedule.
